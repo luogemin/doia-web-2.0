@@ -1,0 +1,260 @@
+
+.add-modal-target {
+
+  .modal-target-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  :global {
+
+    .root-dimension-box {
+      display: flex;
+      display: -ms-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      justify-content: space-between;
+      -webkit-justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .demension-button {
+      border-style: dashed;
+    }
+  }
+}
+
+.dataview-modal-title {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 32px;
+  height: 32px;
+  align-items: center;
+}
+
+.dataview-modal-main {
+  height: 100%;
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+
+    .model-header-right {
+      display: flex;
+      align-items: center;
+
+      .header-icon {
+        margin-right: 8px;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 2px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.modal-wrapper-labor {
+  :global {
+    .ant-modal-header {
+      padding: 11px 24px;
+    }
+
+    .modal-spin-origan {
+      height: 100%;
+
+      .ant-spin-container {
+        height: 100%;
+      }
+    }
+
+    .bottom-title {
+      margin: 8px 24px;
+    }
+
+  }
+
+  .labor-modal-pagi {
+    display: flex;
+    height: 32px;
+    line-height: 32px;
+    justify-content: space-between;
+    padding-right: 24px;
+
+    .modal-left {
+      width: 100%;
+      display: flex;
+
+      > span {
+        display: inline-block;
+        max-width: 60%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+      }
+
+      :global {
+        .cw-pagination-wrapper {
+          margin: 0;
+          height: 32px;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+}
+
+.labor-main {
+  height: 100%;
+  padding: 4px 32px 16px;
+  // padding: 32px;
+  :global {
+    .ant-card-head {
+      padding: 0 32px;
+
+      .ant-card-head-title {
+        padding: 16px 0 14px;
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 14px;
+      }
+    }
+
+    .ant-card-body {
+      padding: 0 32px;
+    }
+
+    .cw-pagination-wrapper {
+      padding: 0;
+    }
+  }
+
+  .main-search {
+    :global {
+      .cw-search-wrapper {
+        padding: 12px 0;
+      }
+    }
+  }
+}
+
+.collect-empty {
+  height: calc(100% - 32px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .empty-span {
+    display: block;
+  }
+}
+
+.exp-table-wrapper {
+  :global {
+    .cw-table-pagination-box {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .exp-header {
+      height: 48px;
+      line-height: 48px;
+      background-color: #FAFAFA;
+      margin-bottom: 16px;
+      border-radius: 2px;
+      padding: 0 24px;
+
+      .header-icon-img {
+        font-size: 12px;
+        margin-right: 8px;
+        color: rgba(0, 0, 0, 0.65);
+      }
+
+      &:hover {
+        .header-icon-img {
+          color: #1890FF;
+        }
+      }
+
+      .exp-title {
+        display: inline-block;
+        max-width: 100%;
+        color: rgba(0, 0, 0, 0.85);
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+      }
+    }
+
+
+    .cw-pagination-wrapper {
+      // margin: 12px 0;
+      padding: 0;
+    }
+
+    .cw-table-wrapper-main {
+      height: auto !important;
+    }
+  }
+}
+
+.root-analysis-chart-header {
+  height: 32px;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16px;
+  position: absolute;
+  top: 8px;
+  z-index: 9999;
+
+  :global {
+    .charts_ctrl_box_items_icon {
+      margin-left: 0px;
+      margin-top: 5px;
+    }
+
+    .charts_ctrl_box_items_success {
+      color: #72c140;
+    }
+
+    .charts_ctrl_box_items_warning {
+      color: #efaf41;
+    }
+
+    .charts_ctrl_box_items_error {
+      color: #ec5b56;
+    }
+  }
+
+  .header-right-icon {
+    display: flex;
+    align-items: center;
+
+    .right-icon {
+      display: flex;
+      width: 32px;
+      height: 32px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 2px;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+  }
+}

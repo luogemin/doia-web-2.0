@@ -1,0 +1,244 @@
+.single-wrapper {
+  height: 100%;
+  padding: 32px;
+
+  .single-content {
+    height: ~'calc(100% - 32px)';
+  }
+}
+
+.single-view-wrapper {
+  height: 100%;
+  //padding: 0 16px;
+  > p {
+    padding-top: 16px;
+  }
+
+  :global {
+    .ant-tabs {
+      overflow-y: auto;
+      height: 100%;
+
+      .ant-tabs-content {
+        height: ~'calc(100% - 60px)';
+      }
+    }
+
+    .cw-pagination-wrapper {
+      padding: 0;
+    }
+  }
+}
+
+.dataview-modal-title {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 32px;
+  height: 32px;
+  align-items: center;
+}
+
+.dataview-modal-main {
+  height: 100%;
+
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+
+    .model-header-right {
+      display: flex;
+      align-items: center;
+
+      .header-icon {
+        margin-right: 8px;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 2px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.analyse-modal {
+  height: 100%;
+
+  .analyse-header {
+    height: 300px;
+
+    .analyse-table {
+      height: ~'calc(100% - 21px)';
+      background-color: #f3f4f8;
+    }
+  }
+
+  .analyse-footer {
+    background-color: #f3f4f8;
+    margin: 8px 0;
+    height: ~'calc(100% - 300px)';
+  }
+}
+
+.add-modal-target {
+  border: 1px solid black;
+  height: 200px;
+  overflow: auto;
+
+  .modal-target-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+
+    span {
+      display: inline-block;
+    }
+  }
+}
+
+.modal-wrapper-labor {
+  :global {
+    .ant-modal-header {
+      padding: 11px 24px;
+    }
+
+    .modal-spin-origan {
+      height: 100%;
+
+      .ant-spin-container {
+        height: 100%;
+      }
+    }
+
+  }
+
+  .labor-modal-pagi {
+    display: flex;
+    height: 32px;
+    line-height: 32px;
+    justify-content: space-between;
+    padding-right: 24px;
+
+    .modal-left {
+      width: 100%;
+      display: flex;
+
+      > span {
+        display: inline-block;
+        max-width: 60%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+      }
+
+      :global {
+        .cw-pagination-wrapper {
+          margin: 0;
+          height: 32px;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+}
+
+.chart-spining {
+  height: 100%;
+
+  :global {
+    .bottom-title {
+      display: flex;
+      padding: 8px 20px;
+
+      .bottom-target {
+        font-size: 12px;
+        margin-right: 8px;
+        display: inline-block;
+        white-space: nowrap;
+      }
+
+      .bottom-metricTags {
+        flex-grow: 1;
+        display: inline-block;
+        font-size: 12px;
+        // max-width: 70%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+      }
+    }
+  }
+}
+
+.collect-empty {
+  height: ~'calc(100% - 32px)';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .empty-span {
+    display: block;
+  }
+}
+
+.origa-data-drop {
+  :global {
+    .ant-table {
+      z-index: 99;
+    }
+
+    .cw-table-pagination-box {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .cw-table-wrapper-main {
+      height: auto !important;
+    }
+
+    .cw-pagination-wrapper {
+      // margin: 12px 0;
+      padding: 0;
+    }
+
+    .drop-header {
+      height: 48px;
+      background: #FAFAFA;
+      border-radius: 2px;
+      color: rgba(0, 0, 0, 0.85);
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-left: 24px;
+
+      .header-icon {
+        display: inline-block;
+        max-width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+
+        .header-icon-img {
+          font-size: 12px;
+          margin-right: 8px;
+          color: rgba(0, 0, 0, 0.65);
+        }
+
+        &:hover {
+          .header-icon-img {
+            color: #1890FF;
+          }
+        }
+      }
+    }
+  }
+}

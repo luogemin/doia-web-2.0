@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-27" transform="translate(-95.000000, -61.000000)">
+            <rect id="矩形" fill="#FFFFFF" x="0" y="0" width="394" height="240" rx="2"></rect>
+            <rect id="矩形" stroke="#1890FF" stroke-width="2" x="96" y="62" width="30" height="30" rx="4"></rect>
+            <circle id="椭圆形" fill="#B6DAFF" cx="105" cy="71" r="5"></circle>
+            <circle id="椭圆形备份-117" fill="#B6DAFF" cx="117" cy="71" r="5"></circle>
+            <circle id="椭圆形备份-115" fill="#B6DAFF" cx="105" cy="83" r="5"></circle>
+            <circle id="椭圆形备份-118" fill="#1890FF" cx="117" cy="83" r="5"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,2 @@
+timestamp,row_log,message,host,source,pattern_id,pattern,others1,others2,others3,others4,others5
+1.62127E+12,10.1.1.95 - e800 [18/Mar/2005:12:21:42 +0800] "GET /stats/awstats.pl?config=e800 HTTP/1.1" 200 899 "http://10.1.1.1/pv/" "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Maxthon)",GET /stats/awstats.pl?config=e800,10.0.0.1,apache,1,*.*.*.* - [*/Sep/*:*:*:* +*] * * HTTP/*.*" * Upstream: *.*.*.*:* ups_resp_time: *.* request_time: *.*,其他字段1,其他字段2,其他字段3,其他字段4,其他字段5

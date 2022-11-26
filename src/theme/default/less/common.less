@@ -1,0 +1,253 @@
+@import './colors.less';
+
+@base-color: #dddddd;
+@border-color: fadeout(#6E7F90, 60%);
+
+input::-webkit-input-placeholder, input::-moz-input-placeholder, input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  text-align: right;
+}
+
+.ant-list-empty-text {
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//页面数据显示区域的公共样式
+.contentBody {
+  .ant-card {
+    .ant-card-head {
+      padding: 0px 16px;
+
+      .ant-card-head-title, .ant-card-extra {
+        padding: 6px 0px;
+      }
+    }
+
+    .ant-card-body {
+      padding: 20px 12px;
+    }
+  }
+}
+
+//ant按钮组件的公共样式区域
+.ant-btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+//数据结构定义公共样式
+.schemaWrapper {
+  //数据结构表单样式
+  .struct-header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 16px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    &:first-child {
+      margin-top: 0px;
+    }
+
+    .title {
+      font-weight: 500;
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    .left {
+      display: flex;
+      justify-content: left;
+
+      .tableName {
+        .label {
+          font-size: 14px;
+          display: inline-block;
+          margin-right: 10px;
+        }
+
+        .value {
+          font-weight: 500;
+          display: inline-block;
+        }
+      }
+
+      .opList {
+        margin-left: 20px;
+
+        .item {
+          .ant-checkbox-wrapper {
+            span:last-child {
+              padding-left: 4px;
+            }
+          }
+        }
+      }
+    }
+
+    .parse-json {
+      cursor: pointer;
+      border: none;
+      border-radius: 20px;
+    }
+  }
+
+  .struct-body {
+    position: relative;
+
+    .custom-card {
+      border: 1px dotted @theme-color;
+      // background:#fafafa;
+      background: rgba(0, 0, 0, 0.02);
+      text-align: center;
+      min-height: 300px;
+      border-radius: 2px;
+
+      .small-tip {
+        width: 100%;
+        height: 60px;
+        line-height: 30px;
+        padding-top: 0px;
+        font-size: 12px;
+        margin-bottom: 6px;
+        color: rgba(0, 0, 0, 0.85);
+        text-align: left;
+
+        i {
+          color: @theme-color;
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .no-data-card {
+      line-height: 100%;
+
+      .ant-card-body {
+        padding: 0px;
+
+        a {
+          line-height: 300px;
+        }
+      }
+
+    }
+
+    .label, .content {
+      display: inline-block;
+    }
+
+    .add-icon {
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    .ant-alert {
+      text-align: left;
+      background-color: #e6f7ff;
+    }
+
+    :global {
+      //字段列表区域
+      .fieldWrapper {
+        width: 100%;
+
+        ul, li {
+          list-style: none;
+        }
+
+        ul {
+          padding-left: 0px;
+          border: 1px solid @border-color;
+
+          li {
+            cursor: pointer;
+            height: 40px;
+            line-height: 32px;
+            border-bottom: 1px solid @border-color;
+
+            div.column {
+              float: left;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              border-right: 1px solid @border-color;
+              height: 40px;
+              padding-top: 4px;
+              padding-left: 4px;
+
+              .sortableIcon {
+                width: 16px;
+                height: 16px;
+              }
+            }
+
+            div.column:last-child {
+              border-right: none;
+            }
+
+            &.whiteRow {
+              background-color: #fdfdfd;
+            }
+
+            &:hover {
+              background-color: rgba(0, 201, 194, 0.13);
+            }
+
+            &:last-child {
+              border-bottom: none;
+            }
+          }
+
+          li.header {
+            background: none;
+            box-shadow: none;
+            padding-right: 0px;
+            font-weight: 600;
+
+            div {
+              text-align: center;
+            }
+          }
+
+          .hasError {
+            .ant-input, .ant-input:hover {
+              border-color: #D0280D;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//隐藏的表单域样式
+.hidden-form-item {
+  margin-bottom: 0px;
+}
+
+//全局覆盖的样式，写到这个空间下
+.layoutWrap {
+  .ant-card {
+    .ant-card-head {
+      padding: 0 12px;
+      min-height: 40px;
+
+      .ant-card-head-wrapper {
+        .ant-card-head-title {
+          padding: 6px 0px;
+        }
+
+        .ant-card-extra {
+          padding: 6px 0px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+.single-wrapper {
+  height: 100%;
+  padding: 32px;
+
+  .single-content {
+    height: calc(100% - 32px);
+  }
+
+  :global {
+
+    .requird-before::before {
+      display: inline-block;
+      margin-right: 4px;
+      color: #f5222d;
+      font-size: 14px;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: '*';
+    }
+  }
+}
+
+.single-view-wrapper {
+  height: 100%;
+
+  > p {
+    padding-top: 16px;
+  }
+
+  :global {
+    .ant-tabs {
+      height: calc(100% - 51px);
+      overflow: auto;
+
+      .ant-tabs-content {
+        height: calc(100% - 92px);
+      }
+    }
+  }
+}
+
+.dataview-modal-title {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 32px;
+  height: 32px;
+  align-items: center;
+}
+
+.dataview-modal-main {
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+  }
+}
+
+.analyse-modal {
+  height: 100%;
+
+  .analyse-header {
+    height: 300px;
+
+    .analyse-table {
+      height: calc(100% - 21px);
+      background-color: #f3f4f8;
+    }
+  }
+
+  .analyse-footer {
+    background-color: #f3f4f8;
+    margin: 8px 0;
+    height: calc(100% - 300px);
+  }
+}
+
+.add-modal-target {
+  border: 1px solid black;
+  height: 200px;
+  overflow: auto;
+
+  .modal-target-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+
+    span {
+      display: inline-block;
+    }
+  }
+}
+
+.modal-wrapper-labor {
+  :global {
+    .ant-modal-header {
+      padding: 11px 24px;
+    }
+  }
+
+  .labor-modal-pagi {
+    display: flex;
+    height: 32px;
+    line-height: 32px;
+
+    > span {
+      display: inline-block;
+    }
+
+    :global {
+      .cw-pagination-wrapper {
+        margin: 0;
+      }
+    }
+  }
+
+}
+
+.form-time-target {
+  height: 48px;
+  line-height: 48px;
+  border-bottom: 1px solid #E8E8E8;
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+.dataset-basicinfo {
+  width: 100%;
+  height: 48px;
+  background: #FAFAFA;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 48px;
+  padding-left: 24px;
+  color: rgba(0, 0, 0, 0.85);
+}

@@ -1,0 +1,37 @@
+.multiTenancy-create-form {
+  padding: 32px;
+
+  :global {
+    .scene-box {
+      display: flex;
+      display: -ms-flex;
+      margin-bottom: 16px;
+      //align-items: center;
+      //-webkit-align-items: center;
+
+      .scene-box-left {
+        margin-bottom: 0;
+      }
+
+      .ant-form-item {
+        margin-bottom: 0;
+      }
+    }
+
+    .deleteBtn {
+      font-size: 16px;
+      margin-left: 8px;
+      line-height: 40px;
+    }
+
+    .title::before {
+      display: inline-block;
+      margin-right: 4px;
+      color: #f5222d;
+      font-size: 14px;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: '*';
+    }
+  }
+}

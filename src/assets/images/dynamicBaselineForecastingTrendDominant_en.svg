@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="392px" height="248px" viewBox="0 0 392 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>背景板</title>
+    <defs>
+        <path d="M2,0 L382,0 C383.104569,-2.02906125e-16 384,0.8954305 384,2 L384,238 C384,239.104569 383.104569,240 382,240 L2,240 C0.8954305,240 1.3527075e-16,239.104569 0,238 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-1"></path>
+        <filter x="-1.8%" y="-2.1%" width="103.6%" height="105.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.12334826   0 0 0 0 0.156873573   0 0 0 0 0.212749094  0 0 0 0.0649311626 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="模块备份-8" transform="translate(4.000000, 2.000000)">
+            <g id="背景板">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="编组-6" transform="translate(16.000000, 46.000000)">
+                <rect id="实际区域" fill="#FF5656" opacity="0" x="0" y="0" width="352" height="178"></rect>
+                <g id="图表" transform="translate(0.000000, 17.000000)">
+                    <g id="编组-2" transform="translate(15.000000, 22.000000)" fill="#F4FCFF">
+                        <rect id="矩形" x="0" y="0" width="20" height="118"></rect>
+                        <rect id="矩形备份-24" x="38" y="0" width="20" height="118"></rect>
+                        <rect id="矩形备份-25" x="76" y="0" width="20" height="118"></rect>
+                        <rect id="矩形备份-26" x="113" y="0" width="20" height="118"></rect>
+                        <rect id="矩形备份-27" x="149" y="0" width="20" height="118"></rect>
+                        <rect id="矩形备份-28" x="186" y="0" width="20" height="118"></rect>
+                        <rect id="矩形备份-29" x="223" y="0" width="20" height="118"></rect>
+                        <rect id="矩形备份-30" x="260" y="0" width="20" height="118"></rect>
+                        <rect id="矩形备份-31" x="297" y="0" width="20" height="118"></rect>
+                    </g>
+                    <text id="time" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" fill="#000000" fill-opacity="0.45">
+                        <tspan x="327" y="154">time</tspan>
+                    </text>
+                    <text id="figure" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" fill="#000000" fill-opacity="0.45">
+                        <tspan x="0" y="11">figure</tspan>
+                    </text>
+                    <g id="刻度" transform="translate(0.000000, 21.500000)">
+                        <line x1="2.5" y1="0" x2="2.5" y2="118" id="直线" stroke="#E9E9E9" stroke-linecap="square"></line>
+                        <line x1="2.5" y1="118" x2="351" y2="118" id="直线-2" stroke="#E9E9E9" stroke-linecap="square"></line>
+                        <rect id="矩形" fill="#E9E9E9" x="8" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-6" fill="#E9E9E9" x="25" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-7" fill="#E9E9E9" x="43" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-8" fill="#E9E9E9" x="63" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-9" fill="#E9E9E9" x="82" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-10" fill="#E9E9E9" x="101" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-11" fill="#E9E9E9" x="119" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-12" fill="#E9E9E9" x="138" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-13" fill="#E9E9E9" x="156" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-14" fill="#E9E9E9" x="174" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-15" fill="#E9E9E9" x="192" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-16" fill="#E9E9E9" x="211" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-17" fill="#E9E9E9" x="229" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-18" fill="#E9E9E9" x="248" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-19" fill="#E9E9E9" x="266" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-20" fill="#E9E9E9" x="285" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-21" fill="#E9E9E9" x="304" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-22" fill="#E9E9E9" x="322" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形备份-23" fill="#E9E9E9" x="343" y="117.5" width="1" height="3"></rect>
+                        <rect id="矩形" fill="#E9E9E9" x="0" y="102.5" width="3" height="1"></rect>
+                        <rect id="矩形备份" fill="#E9E9E9" x="0" y="79.5" width="3" height="1"></rect>
+                        <rect id="矩形备份-3" fill="#E9E9E9" x="0" y="56.5" width="3" height="1"></rect>
+                        <rect id="矩形备份-4" fill="#E9E9E9" x="0" y="33.5" width="3" height="1"></rect>
+                        <rect id="矩形备份-5" fill="#E9E9E9" x="0" y="10.5" width="3" height="1"></rect>
+                    </g>
+                    <path d="M318.044922,31 C322.322917,31.8710938 330.974609,32.9394531 344,34.2050781 L344,77.1669922 C343.064453,81.9677734 338.294271,84.5211589 329.689453,84.8271484 C316.782227,85.2861328 299.724609,70.2929688 275,83.5458984 C263.162789,89.8909017 249.984545,101.899542 235.46527,99.5718194 C235.313706,99.5475209 235.158791,99.5216745 235.000524,99.4942803 L234.999653,61.5554207 C235.14107,61.388528 235.293785,61.2313129 235.46527,61.0869141 C238.210387,58.7753906 253.421875,30.1533203 277,27.2353516 C300.578125,24.3173828 311.62793,29.6933594 318.044922,31 Z" id="形状结合" fill-opacity="0.291553417" fill="#CEFFB7" opacity="0.980027861"></path>
+                    <path d="M234.999443,61.5556681 L235.00104,99.4943696 C231.192254,98.8351629 225.441907,97.2794226 217.75,94.8271484 C207.050781,90.9007161 197.652018,93.8632813 189.553711,103.714844 C177.40625,118.492188 158.915039,119.320313 141.5,111.279297 C124.084961,103.238281 115.083984,102.057617 104.763672,115.082031 C94.4433594,128.106445 94.5996094,132.533203 77.6699219,132.128906 C66.3834635,131.859375 56.2151693,127.548177 47.1650391,119.195313 C34.9104818,106.60612 21.9931641,106.373372 8.41308594,118.49707 C8.5686849,109.161133 8.59765625,102.828776 8.5,99.5 C16.3860677,87.9498698 25.219401,83.8388672 35,87.1669922 C49.6708984,92.1591797 58.1552734,103.048828 69.0078125,94.8271484 C79.8603516,86.6054687 90.4707031,68.3249681 112.664062,72.1234216 C134.857422,75.921875 151.664062,88.3203125 167.543945,78.5 C183.423828,68.6796875 187.214844,61.0058594 211,65 C233.298584,68.7445068 232.877301,64.0604401 234.999443,61.5556681 Z" id="形状结合" fill-opacity="0.6" fill="#CBE4FF"></path>
+                    <path d="M235.00104,82.5 C237.312238,81.6490885 240.117555,79.860026 243.416992,77.1328125 C250.058594,74.1722005 256.748698,68.3414714 263.487305,59.640625 C273.595215,46.5893555 272.948242,39.3164063 285,37.2724609 C297.051758,35.2285156 308.544922,52.5709382 317.451172,56.2024613 C326.357422,59.8339844 340.741211,56.1170069 344.90625,49.6005859" id="路径-16" stroke="#6DD897" stroke-width="1.5" stroke-dasharray="3"></path>
+                    <path d="M238,60 C240.745117,57.6884766 253.421875,30.1533203 277,27.2353516 C300.578125,24.3173828 311.62793,29.6933594 318.044922,31 C322.322917,31.8710937 330.974609,32.9394531 344,34.2050781" id="路径" stroke="#99F070" stroke-width="1.5" stroke-dasharray="3"></path>
+                    <path d="M9,113.534747 C17.4589844,105.303784 25.4085286,94.6109643 32.8486328,96.3335149 C40.288737,98.0560655 47.8492839,103.789809 55.5302734,113.534747 C62.7021484,122.332101 71.1253255,125.121207 80.7998047,121.902063 C87.7972005,118.684718 91.8115234,111.481951 92.8427734,100.293763 C94.9658203,84.9993838 102.645508,79.4909979 115.881836,83.7686052 C126.665039,89.3489139 139.357422,102.365149 141.5,102.780948 C143.642578,103.196746 164.307617,113.642631 176.5,98.2376705 C188.692383,82.8327101 177.47168,71.8698803 197.001953,67.2758128 C208.257812,65.858934 216.767783,83.6611294 221,86.0836197 C226.760254,89.380747 230.780762,86.0836197 235.00104,82.2681152" id="路径" stroke="#1890FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M235.00104,99.5683594 C244.099305,99.5597331 252.286784,97.7036133 259.563477,94 C270.478516,88.4445801 283.385742,73.4023437 307.994629,80 C324.400553,84.3984375 334.594564,85.4860026 338.57666,83.2626953 L344.90625,77.3208008" id="路径-19" stroke="#99F070" stroke-width="1.5" stroke-dasharray="3"></path>
+                </g>
+            </g>
+            <g id="标题" transform="translate(16.000000, 18.000000)" fill="#000000" fill-opacity="0.85" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" line-spacing="20">
+                <text id="Dynamic-baseline-for">
+                    <tspan x="0" y="15">Dynamic baseline forecasting trend dominant</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

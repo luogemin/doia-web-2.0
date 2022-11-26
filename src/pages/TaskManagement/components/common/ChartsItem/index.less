@@ -1,0 +1,91 @@
+.charts-box {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  width: 100%;
+  border: 1px solid #f1f1f1;
+  padding: 16px 8px;
+  margin-bottom: 8px;
+
+  :global {
+    .charts_title_box {
+      margin-top: 16px;
+
+      .charts_title_span {
+        display: flex;
+        color: #8d9cab;
+        //font-family: PingFangSC-Semibold;
+        white-space: nowrap;
+        font-size: 14px;
+        word-break: break-all;
+        padding-right: 5px;
+        border-bottom: 1px solid #f2f2f2;
+
+        .charts_parmas_item_key {
+          //border-right: 1px solid #f2f2f2;
+          flex: 1;
+          padding: 8px;
+          //text-align: right;
+          //max-width: 50%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-weight: bolder;
+          color: #707d8a;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.charts-header-box {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  position: relative;
+
+  :global {
+    .charts-header-box-left {
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      -webkit-align-items: center;
+      flex: 1;
+      //font-weight: bolder;
+      //color: #333;
+      margin-left: 16px;
+      position: absolute;
+      top: 0;
+      z-index: 9999;
+
+      .charts_ctrl_box_items_icon {
+        margin-left: 8px;
+        margin-top: 2px;
+      }
+
+      .charts_ctrl_box_items_success {
+        color: #72c140;
+      }
+
+      .charts_ctrl_box_items_warning {
+        color: #efaf41;
+      }
+
+      .charts_ctrl_box_items_error {
+        color: #ec5b56;
+      }
+    }
+  }
+}
+
+.chart-bottom {
+  :global {
+    .bottom-title {
+      margin: 16px 20px 0 20px;
+    }
+
+  }
+}

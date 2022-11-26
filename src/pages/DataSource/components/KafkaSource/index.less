@@ -1,0 +1,78 @@
+.kafka-wrapper{
+    height: 100%;
+    padding: 32px;
+    .kafka-content{
+        height: ~'calc(100% - 32px)';
+    }
+    .kafka-action{
+        height: 32px;
+        line-height: 32px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.filed-select{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    line-height: 32px;
+    .filed-select-title{
+        margin-right: 8px;
+    }
+}
+.field-wrapper{
+    >ul{
+        border: 1px solid rgba(110, 127, 144, 0.4);
+        list-style: none;
+        padding-left: 0;
+        .field-header{
+            background: none;
+            box-shadow: none;
+            padding-right: 0px;
+            font-weight: 600;
+            display: flex;
+            height: 40px;
+            line-height: 32px;
+            border-bottom: 1px solid rgba(110, 127, 144, 0.4);
+            .field-type{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border-right: 1px solid rgba(110, 127, 144, 0.4);
+                padding: 4px;
+                text-align: center;
+            }
+            .field-desc{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border-right: 1px solid rgba(110, 127, 144, 0.4);
+                text-align: center;
+                padding: 4px;
+            }
+            .field-setting{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border-right: 1px solid rgba(110, 127, 144, 0.4);
+                text-align: center;
+                padding: 4px;
+            }
+
+        }
+        .field-header-list{
+            background: none;
+            box-shadow: none;
+            padding-right: 0px;
+            display: flex;
+            height: 40px;
+            line-height: 32px;border-bottom: 1px solid rgba(110, 127, 144, 0.4);
+            .field-type-list,.field-desc-list,.field-setting-list{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border-right: 1px solid rgba(110, 127, 144, 0.4);
+                padding: 4px;
+            }
+            .field-type-list,.field-desc-list{
+                text-align: center;
+            }
+        }
+    }
+}

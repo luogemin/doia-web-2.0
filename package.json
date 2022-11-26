@@ -1,0 +1,73 @@
+{
+  "name": "doia",
+  "packageName": "doiaWeb",
+  "version": "2.3.0",
+  "private": true,
+  "dependencies": {
+    "@antv/g6": "^4.0.3",
+    "@chaoswise/cw-mobx": "0.0.13",
+    "@chaoswise/request": "0.0.24",
+    "@chaoswise/scaffold": "0.0.53",
+    "@chaoswise/ui": "0.0.122",
+    "@chaoswise/utils": "0.0.27",
+    "@hanyk/rc-viewer": "0.0.3",
+    "FileReader": "^0.10.2",
+    "element-resize-event": "^3.0.3",
+    "file-saver": "^2.0.5",
+    "interactjs": "^1.10.11",
+    "jquery": "^3.6.0",
+    "jsplumb": "^2.5.12",
+    "jszip": "^3.7.1",
+    "monaco-editor": "^0.13.1",
+    "node-sass": "^4.14.1",
+    "papaparse": "^5.3.1",
+    "react": "^16.14.0",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dag": "^2.0.0-alpha-2-1",
+    "react-dnd": "^14.0.2",
+    "react-dnd-html5-backend": "^14.0.0",
+    "react-dom": "^16.3.2",
+    "react-draggable": "^4.4.3",
+    "react-json-tree": "^0.15.0",
+    "react-markdown": "^3.4.1",
+    "react-monaco-editor": "^0.40.0",
+    "react-resizable": "^3.0.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "reactablejs": "^0.2.0",
+    "single-spa-react": "^4.1.1",
+    "sql-formatter": "^4.0.2",
+    "xlsx": "^0.16.9"
+  },
+  "scripts": {
+    "start": "chaoswise-scripts dev",
+    "build": "chaoswise-scripts build --max_old_space_size=4096",
+    "analyze": "chaoswise-scripts analyze",
+    "test": "node scripts/test.js",
+    "cicd": "outputPath=doiaWeb chaoswise-cicd",
+    "tar": "node ./bin/tar.js doiaWeb-4.13.0"
+  },
+  "browserslist": [
+    "ie > 9",
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "monaco-editor-webpack-plugin": "^1.5.4",
+    "raw-loader": "^4.0.2"
+  },
+  "description": "node版本 10.12 以上 # 使用 安装依赖 ``` npm i ``` 本地运行 ``` npm start ``` 打包(目录：dist) ``` npm run build ``` 打包后文件大小分析 ``` npm run analyze ``` 压缩（目录：publish）([遵循CICD打包规范](https://yunzhihui.feishu.cn/docs/doccn991FzkgC0q9FdBLFwyQ6xg#)) ``` npm run cicd ```",
+  "main": "postcss.config.js",
+  "bin": {
+    "doia": "bin/tar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.cloudwise.com:36000/DOIA/doia-web-2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}

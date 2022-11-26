@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="392px" height="248px" viewBox="0 0 392 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 28</title>
+    <defs>
+        <path d="M2,0 L382,0 C383.104569,-2.02906125e-16 384,0.8954305 384,2 L384,238 C384,239.104569 383.104569,240 382,240 L2,240 C0.8954305,240 1.3527075e-16,239.104569 0,238 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-1"></path>
+        <filter x="-1.8%" y="-2.1%" width="103.6%" height="105.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.12334826   0 0 0 0 0.156873573   0 0 0 0 0.212749094  0 0 0 0.0649311626 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-28" transform="translate(4.000000, 2.000000)">
+            <g id="Rectangle-5-Copy-4备份-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="编组-24备份-2" transform="translate(16.000000, 14.000000)" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400">
+                <g id="标题">
+                    <text id="Drain日志解析树深大">
+                        <tspan x="0" y="15" fill="#000000">Drain日志解析树深大</tspan>
+                        <tspan x="133.07" y="15" fill="#2585FA"></tspan>
+                    </text>
+                </g>
+            </g>
+            <circle id="椭圆形备份-68" fill="#46A6FF" cx="69" cy="88" r="12"></circle>
+            <circle id="椭圆形备份-70" fill="#46A6FF" cx="109" cy="151" r="12"></circle>
+            <circle id="椭圆形备份-69" fill="#46A6FF" cx="65" cy="146" r="12"></circle>
+            <circle id="椭圆形备份-72" fill="#6DD897" cx="81" cy="171" r="12"></circle>
+            <circle id="椭圆形备份-75" fill="#6DD897" cx="67" cy="117" r="12"></circle>
+            <circle id="椭圆形备份-76" fill="#6DD897" cx="101" cy="127" r="12"></circle>
+            <circle id="椭圆形备份-78" fill="#FF9D9D" cx="89" cy="100" r="12"></circle>
+            <circle id="椭圆形备份-81" fill="#FF9D9D" cx="53" cy="174" r="12"></circle>
+            <circle id="椭圆形备份-82" fill="#FF9D9D" cx="39" cy="142" r="12"></circle>
+            <circle id="椭圆形备份-83" fill="#FF9D9D" cx="89" cy="145" r="12"></circle>
+            <circle id="椭圆形备份-86" fill="#46A6FF" cx="43" cy="110" r="12"></circle>
+            <circle id="椭圆形备份-89" fill="#FF9D9D" cx="264" cy="175" r="12"></circle>
+            <circle id="椭圆形备份-90" fill="#FF9D9D" cx="290" cy="175" r="12"></circle>
+            <circle id="椭圆形备份-92" fill="#46A6FF" cx="290" cy="93" r="12"></circle>
+            <circle id="椭圆形备份-98" fill="#FF9D9D" cx="316" cy="175" r="12"></circle>
+            <circle id="椭圆形备份-99" fill="#FF9D9D" cx="344" cy="175" r="12"></circle>
+            <circle id="椭圆形备份-104" fill="#6DD897" cx="290" cy="135" r="12"></circle>
+            <circle id="椭圆形备份-106" fill="#6DD897" cx="316" cy="135" r="12"></circle>
+            <circle id="椭圆形备份-102" fill="#46A6FF" cx="316" cy="93" r="12"></circle>
+            <circle id="椭圆形备份-105" fill="#46A6FF" cx="344" cy="93" r="12"></circle>
+            <circle id="椭圆形备份-107" fill="#6DD897" cx="264" cy="135" r="12"></circle>
+            <circle id="椭圆形备份-103" fill="#46A6FF" cx="264" cy="93" r="12"></circle>
+            <g id="编组" transform="translate(165.000000, 89.000000)" fill="#C5C5C5" fill-rule="nonzero">
+                <path id="直线-5备份-8" d="M-0.00335264237,48.7797266 L0.705428473,49.4851551 L31.782,80.415 L36.0150637,76.1625336 L41,91 L26.1390651,86.0854692 L30.371,81.833 L-0.705428473,50.9027173 L-1.41420959,50.1972889 L-0.00335264237,48.7797266 Z"></path>
+                <path id="直线-5备份-9" d="M15.8306015,22.4740507 C18.4373224,19.6190707 22.8649056,19.417817 25.7198855,22.0245378 C28.5748655,24.6312586 28.7761193,29.0588418 26.1693985,31.9138218 C23.7915098,34.518176 19.898417,34.9142708 17.0660525,32.9850183 L0.738485494,50.8682056 L0.0642161299,51.6066911 L-1.41275486,50.2581524 L-0.738485494,49.5196669 L15.5889135,31.6360909 C13.4114491,28.9904447 13.4529965,25.0780943 15.8306015,22.4740507 Z"></path>
+                <path id="直线-5备份-8" d="M24.8590209,26.5857932 L25.5683128,27.2907081 L37.774,39.422 L42.0043183,35.166148 L47,50 L32.1355094,45.0962342 L36.365,40.84 L24.158483,28.7092919 L23.4491911,28.0043769 L24.8590209,26.5857932 Z"></path>
+                <path id="直线-5备份-9" d="M46.5901936,0 L42.3838372,15.0766895 L37.935,11.049 L25.6047414,24.6711258 L24.9336156,25.4124693 L23.4509286,24.0702177 L24.1220544,23.3288742 L36.453,9.707 L32.0050282,5.68092851 L46.5901936,0 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

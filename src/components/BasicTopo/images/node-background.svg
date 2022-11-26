@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="183px" height="92px" viewBox="0 0 183 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <defs>
+        <path d="M4,0 L179,0 C181.209139,-4.05812251e-16 183,1.790861 183,4 L183,88 C183,90.209139 181.209139,92 179,92 L4,92 C1.790861,92 2.705415e-16,90.209139 0,88 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="path-1"></path>
+        <filter x="-5.5%" y="-10.9%" width="110.9%" height="121.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="10" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.489274458   0 0 0 0 0.530683641   0 0 0 0 0.890625  0 0 0 0.3 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-太平金科-全局拓扑大屏" transform="translate(-150.000000, -520.000000)">
+            <g id="-反欺诈模块-小-copy" transform="translate(140.000000, 434.000000)">
+                <g id="Rectangle" transform="translate(10.000000, 86.000000)">
+                    <use fill-opacity="0.3" fill="#4553C3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <path stroke="#5040D3" stroke-width="1" d="M179,0.5 C179.966498,0.5 180.841498,0.891750844 181.474874,1.52512627 C182.108249,2.15850169 182.5,3.03350169 182.5,4 L182.5,4 L182.5,88 C182.5,88.9664983 182.108249,89.8414983 181.474874,90.4748737 C180.841498,91.1082492 179.966498,91.5 179,91.5 L179,91.5 L4,91.5 C3.03350169,91.5 2.15850169,91.1082492 1.52512627,90.4748737 C0.891750844,89.8414983 0.5,88.9664983 0.5,88 L0.5,88 L0.5,4 C0.5,3.03350169 0.891750844,2.15850169 1.52512627,1.52512627 C2.15850169,0.891750844 3.03350169,0.5 4,0.5 L4,0.5 Z" stroke-linejoin="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

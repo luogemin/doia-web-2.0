@@ -1,0 +1,2 @@
+metric_key,timestamp,value,metric_name,metric_tags
+test.kafka,1.62E+12,68,successcount,"{""area"":""default"",""deviceIp"":""182.180.117.158"",""appId"":""npcs_pubs_cpsgw_service"",""name"":""DefaulHostTransServer"",""test"":""hashtest"",""model"":""test"",""target"":""source01""}"

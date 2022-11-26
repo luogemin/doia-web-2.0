@@ -1,0 +1,427 @@
+{
+    "nodes": [
+        {
+            "id": "node1-1", // id-唯一标识； 必须存在
+            "comboId": "combo-1", //组-id； 必须存在
+            "label": [ // 文字label， 这个可以商讨，可以换成key-value； 可以是空数组
+                "功能11",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [ // 父节点id数组；如果没有父级可以不返回
+                "node1-3"
+            ],
+            "cid": [ // 子节点id数组；如果没有子级可以
+                "node2-1"
+            ]
+        },
+        {
+            "id": "node1-2",
+            "comboId": "combo-1",
+            "label": [
+                "功能12",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "cid": [
+                "node2-4",
+                "node2-5"
+            ]
+        },
+        {
+            "id": "node1-3",
+            "comboId": "combo-1",
+            "label": [
+                "功能12",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "cid": [
+                "node2-6",
+                "node2-2"
+            ]
+        },
+        {
+            "id": "node1-4",
+            "comboId": "combo-1",
+            "label": [
+                "功能12",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "cid": [
+                "node2-3"
+            ]
+        },
+        {
+            "id": "node2-1",
+            "comboId": "combo-2",
+            "label": [
+                "功能21",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node1-1"
+            ],
+            "cid": [
+                "node3-1",
+                "node3-3"
+            ]
+        },
+        {
+            "id": "node2-2",
+            "comboId": "combo-2",
+            "label": [
+                "功能22",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node1-3"
+            ],
+            "cid": [
+                "node3-1",
+                "node3-2"
+            ]
+        },
+        {
+            "id": "node2-3",
+            "comboId": "combo-2",
+            "label": [
+                "功能22",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node1-4"
+            ],
+            "cid": [
+                "node3-5"
+            ]
+        },
+        {
+            "id": "node2-4",
+            "comboId": "combo-2",
+            "label": [
+                "功能22",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node1-2"
+            ],
+            "cid": [
+                "node3-4"
+            ]
+        },
+        {
+            "id": "node2-5",
+            "comboId": "combo-2-2",
+            "label": [
+                "功能22",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node1-2"
+            ]
+        },
+        {
+            "id": "node2-6",
+            "comboId": "combo-2-2",
+            "label": [
+                "功能22",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node1-3"
+            ]
+        },
+        {
+            "id": "node3-1",
+            "comboId": "combo-3",
+            "label": [
+                "功能31",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node2-1",
+                "node2-2"
+            ],
+            "cid": [
+                "node4-1",
+                "node4-2",
+                "node4-3",
+                "node4-4"
+            ]
+        },
+        {
+            "id": "node3-2",
+            "comboId": "combo-3",
+            "label": [
+                "功能32",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node2-2"
+            ],
+            "cid": [
+                "node4-5"
+            ]
+        },
+        {
+            "id": "node3-3",
+            "comboId": "combo-3-2",
+            "label": [
+                "功能32",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node2-1"
+            ]
+        },
+        {
+            "id": "node3-4",
+            "comboId": "combo-3-2",
+            "label": [
+                "功能32",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node2-4"
+            ]
+        },
+        {
+            "id": "node3-5",
+            "comboId": "combo-3-2",
+            "label": [
+                "功能32",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node2-3"
+            ]
+        },
+        {
+            "id": "node4-1",
+            "comboId": "combo-4",
+            "label": [
+                "功能31",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node3-1"
+            ]
+        },
+        {
+            "id": "node4-2",
+            "comboId": "combo-4",
+            "label": [
+                "功能32",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node3-1"
+            ]
+        },
+        {
+            "id": "node4-3",
+            "comboId": "combo-4",
+            "label": [
+                "功能32",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node3-1"
+            ]
+        },
+        {
+            "id": "node4-4",
+            "comboId": "combo-4-2",
+            "label": [
+                "功能32",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node3-1"
+            ]
+        },
+        {
+            "id": "node4-5",
+            "comboId": "combo-4-2",
+            "label": [
+                "功能32",
+                "失效模式11",
+                "失效原因",
+                "高一层次影响: CC1",
+                "严酷度7"
+            ],
+            "pid": [
+                "node3-2"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "source": "node1-1", // 起点
+            "target": "node2-1" // 终点
+        },
+        {
+            "source": "node1-2",
+            "target": "node2-4"
+        },
+        {
+            "source": "node1-2",
+            "target": "node2-5"
+        },
+        {
+            "source": "node1-3",
+            "target": "node2-6"
+        },
+        {
+            "source": "node1-3",
+            "target": "node2-2"
+        },
+        {
+            "source": "node1-4",
+            "target": "node2-3"
+        },
+        {
+            "source": "node2-1",
+            "target": "node3-1"
+        },
+        {
+            "source": "node2-1",
+            "target": "node3-3"
+        },
+        {
+            "source": "node2-2",
+            "target": "node3-1"
+        },
+        {
+            "source": "node2-2",
+            "target": "node3-2"
+        },
+        {
+            "source": "node2-3",
+            "target": "node3-5"
+        },
+        {
+            "source": "node2-4",
+            "target": "node3-4"
+        },
+        {
+            "source": "node3-1",
+            "target": "node4-1"
+        },
+        {
+            "source": "node3-1",
+            "target": "node4-2"
+        },
+        {
+            "source": "node3-1",
+            "target": "node4-3"
+        },
+        {
+            "source": "node3-1",
+            "target": "node4-4"
+        },
+        {
+            "source": "node3-2",
+            "target": "node4-5"
+        }
+    ],
+    "combos": [
+        {
+            "id": "combo-1", //组id； 必填
+            "layer": 1, //层级；必填
+            "groupIndex": 1, //当前层级的第几个组；必填
+            "label": "FEG层" //label
+        },
+        {
+            "id": "combo-2",
+            "layer": 2,
+            "groupIndex": 1,
+            "label": "设备层"
+        },
+        {
+            "id": "combo-2-2",
+            "layer": 2,
+            "groupIndex": 2,
+            "label": "设备层2"
+        },
+        {
+            "id": "combo-3",
+            "layer": 3,
+            "groupIndex": 1,
+            "label": "零件层"
+        },
+        {
+            "id": "combo-3-2",
+            "layer": 3,
+            "groupIndex": 2,
+            "label": "零件层2"
+        },
+        {
+            "id": "combo-4",
+            "layer": 4,
+            "groupIndex": 1,
+            "label": "子零件层"
+        },
+        {
+            "id": "combo-4-2",
+            "layer": 4,
+            "groupIndex": 2,
+            "label": "子零件层2"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+@import '../../../theme/default/less/colors.less';
+
+.setting {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+
+  :global {
+    .ant-tabs {
+      height: 45px !important;
+    }
+
+    .data-store_right {
+      width: 100%;
+      height: ~'calc(100% - 45px)';
+      padding: 16px 32px;
+
+      .algorithm-box {
+        display: flex;
+        display: -ms-flex;
+        -webkit-align-items: center;
+        align-items: center;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        margin-bottom: -8px;
+
+        .algorithm-item {
+          width: auto;
+          max-width: 110px;
+          margin: 0 8px 8px 0;
+          padding: 0 8px;
+          text-align: center;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+
+      .tagItem {
+        background: #FAFAFA;
+        padding: 0 5px;
+        border: 0.5px solid #D9D9D9;
+        border-radius: 3px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.reset-modal {
+  :global {
+    .reset-modal-body {
+      display: flex;
+      display: -ms-flex;
+      align-items: center;
+      -webkit-align-items: center;
+    }
+  }
+}

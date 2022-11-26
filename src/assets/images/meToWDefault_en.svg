@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="392px" height="248px" viewBox="0 0 392 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle 5 Copy 4备份 5</title>
+    <defs>
+        <path d="M2,0 L382,0 C383.104569,-2.02906125e-16 384,0.8954305 384,2 L384,238 C384,239.104569 383.104569,240 382,240 L2,240 C0.8954305,240 1.3527075e-16,239.104569 0,238 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-1"></path>
+        <filter x="-1.8%" y="-2.1%" width="103.6%" height="105.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.12334826   0 0 0 0 0.156873573   0 0 0 0 0.212749094  0 0 0 0.0649311626 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2" transform="translate(4.000000, 2.000000)">
+            <g id="Rectangle-5-Copy-4备份-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="标题" transform="translate(16.000000, 14.000000)" fill="#000000" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400">
+                <text id="MeToW-default">
+                    <tspan x="0" y="15">MeToW default</tspan>
+                </text>
+            </g>
+            <g id="编组" transform="translate(26.000000, 76.000000)">
+                <path d="M8,37.1233328 L24.5739493,37.1233328 C29.544512,37.1233328 33.5739493,33.0938956 33.5739493,28.1233328 L33.5739493,21.5495248 C33.5739493,16.5789621 37.6033865,12.5495248 42.5739493,12.5495248 L61.291034,12.5495248 L61.291034,12.5495248" id="路径-39" stroke="#1890FF" stroke-width="1.5"></path>
+                <polyline id="路径-40" stroke="#E9E9E9" stroke-linecap="square" points="0 0 0 44.7812276 67.800099 44.7812276"></polyline>
+            </g>
+            <g id="编组备份" transform="translate(147.000000, 75.000000)">
+                <path d="M8,37.1233328 L24.5739493,37.1233328 C29.544512,37.1233328 33.5739493,33.0938956 33.5739493,28.1233328 L33.5739493,21.5495248 C33.5739493,16.5789621 37.6033865,12.5495248 42.5739493,12.5495248 L61.291034,12.5495248 L61.291034,12.5495248" id="路径-39" stroke="#1890FF" stroke-width="1.5"></path>
+                <polyline id="路径-40" stroke="#E9E9E9" stroke-linecap="square" points="0 0 0 44.7812276 67.800099 44.7812276"></polyline>
+            </g>
+            <g id="编组备份-3" transform="translate(268.000000, 75.000000)">
+                <path d="M8,19.0737489 L30.7792318,19.0737489 C32.5995064,19.0737489 34.3769972,18.521795 35.8771032,17.4907367 L36.6011906,16.9930542 C38.4354231,15.7323428 40.846738,15.6942633 42.7198642,16.896428 L44.8305522,18.2510588 L44.8305522,18.2510588 L61.481013,18.2510588" id="路径-39" stroke="#1890FF" stroke-width="1.5"></path>
+                <polyline id="路径-40" stroke="#E9E9E9" stroke-linecap="square" points="0 0 0 44.7812276 67.800099 44.7812276"></polyline>
+            </g>
+            <g id="编组备份-4" transform="translate(268.000000, 164.000000)">
+                <path d="M8,16.8144902 L32.9180042,16.8144902 C33.3547218,16.8144902 33.7908601,16.7827032 34.2229625,16.7193812 L36.4800557,16.3886178 C38.4132926,16.1053135 40.3686409,16.0019434 42.3209726,16.0798358 L60.734688,16.8144902 L60.734688,16.8144902" id="路径-39" stroke="#1890FF" stroke-width="1.5"></path>
+                <polyline id="路径-40" stroke="#E9E9E9" stroke-linecap="square" points="0 0 0 44.7812276 67.800099 44.7812276"></polyline>
+            </g>
+            <g id="编组备份-2" transform="translate(147.000000, 164.000000)">
+                <path d="M8,37.1233328 L24.5739493,37.1233328 C29.544512,37.1233328 33.5739493,33.0938956 33.5739493,28.1233328 L33.5739493,21.5495248 C33.5739493,16.5789621 37.6033865,12.5495248 42.5739493,12.5495248 L61.291034,12.5495248 L61.291034,12.5495248" id="路径-39" stroke="#1890FF" stroke-width="1.5"></path>
+                <polyline id="路径-40" stroke="#E9E9E9" stroke-linecap="square" points="0 0 0 44.7812276 67.800099 44.7812276"></polyline>
+            </g>
+            <path id="直线-9" d="M123.5,87.5 L137.5,94.5 L123.5,101.5 L123.5,95.5 L98.5,95.5 L98.5,93.5 L123.5,93.5 L123.5,87.5 Z" fill="#FF9D9D" fill-rule="nonzero"></path>
+            <path id="直线-9备份" d="M180.632547,125.11751 L182.63249,125.132547 L182.624972,126.132519 L182.48,145.383 L188.480062,145.428026 L181.375,159.375 L174.480458,145.322766 L180.48,145.367 L180.625028,126.117481 L180.632547,125.11751 Z" fill="#FF9D9D" fill-rule="nonzero"></path>
+            <path id="直线-9备份-2" d="M221.896657,119.773876 L222.62389,120.460267 L252.505,148.663 L256.623465,144.299902 L262,159 L247.014001,154.481169 L251.132,150.118 L221.25111,121.914733 L220.523876,121.228343 L221.896657,119.773876 Z" fill="#C7C7C7" fill-rule="nonzero"></path>
+            <path id="路径-41" d="M302.90005,50.0620957 L302.9,58 L308.90005,58 L301.90005,72 L294.90005,58 L300.9,58 L300.9,52.062 L60,52.062 L60,70.9049143 L58,70.9049143 L58,50.0620957 L302.90005,50.0620957 Z" fill="#C7C7C7" fill-rule="nonzero"></path>
+            <rect id="矩形" stroke="#46A6FF" stroke-width="2" x="20" y="73" width="79" height="52" rx="10"></rect>
+            <rect id="矩形备份" stroke="#C7C7C7" stroke-width="2" x="142" y="73" width="79" height="52" rx="10"></rect>
+            <rect id="矩形备份-4" stroke="#FF9D9D" stroke-width="2" x="142" y="161" width="79" height="52" rx="10"></rect>
+            <rect id="矩形备份-2" stroke="#C7C7C7" stroke-width="2" x="263" y="73" width="79" height="52" rx="10"></rect>
+            <rect id="矩形备份-3" stroke="#C7C7C7" stroke-width="2" x="263" y="161" width="79" height="52" rx="10"></rect>
+        </g>
+    </g>
+</svg>

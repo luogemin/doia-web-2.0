@@ -1,0 +1,218 @@
+.log-analysis-detail {
+  height: 100%;
+  padding: 16px 24px;
+
+  :global {
+    .charts_ctrl_box_items_icon {
+      margin-left: 8px;
+      margin-top: 2px;
+    }
+
+    .charts_ctrl_box_items_success {
+      color: #72c140;
+    }
+
+    .charts_ctrl_box_items_warning {
+      color: #efaf41;
+    }
+
+    .charts_ctrl_box_items_error {
+      color: #ec5b56;
+    }
+
+    .modal-spin-origan {
+      height: 100%;
+
+      .ant-spin-container {
+        height: 100%;
+      }
+
+      .dataview-modal-main {
+        height: 100%;
+
+        .modal-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 40px;
+          padding-left: 0px;
+
+          .labor-header-desc {
+            width: 80%;
+
+            .labor-desc {
+              margin-right: 8px;
+
+              .labor-desc-span {
+                margin: 0 8px 0 0;
+                max-width: 270px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              }
+
+              .labor-desc-time {
+                flex: 1;
+                margin: 0 8px 0 0;
+              }
+            }
+
+            .labor-header-desc-left {
+              flex: 1;
+            }
+          }
+
+          .model-header-right {
+            display: flex;
+            align-items: center;
+
+            .header-icon {
+              margin-right: 8px;
+              width: 32px;
+              height: 32px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: 1px solid rgba(0, 0, 0, 0.15);
+              border-radius: 2px;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .dataview-modal-body {
+          height: calc(100% - 40px);
+          overflow-y: auto;
+          width: 100%;
+          display: flex;
+          display: -ms-flex;
+          flex-wrap: wrap;
+          -webkit-flex-wrap: wrap;
+          justify-content: space-between;
+          -webkit-justify-content: space-between;
+
+        }
+      }
+
+      .chart-wrapper {
+        width: 49%;
+        height: 400px;
+        overflow-y: auto;
+        border: 1px solid #e9e9e9;
+        margin-bottom: 16px;
+
+        .dataView-wrapper-header {
+          height: 50px;
+          line-height: 50px;
+          padding: 0 16px;
+          border-bottom: 1px solid #ccc;
+
+          .dataView-wrapper-left {
+            float: left;
+            display: flex;
+            display: -webkit-flex;
+            align-items: center;
+            -webkit-align-items: center;
+          }
+
+          .dataView-wrapper-right {
+            float: right;
+
+            .ant-btn {
+              margin-left: 5px;
+            }
+          }
+        }
+
+        .dataView-wrapper-body {
+          padding: 16px;
+        }
+
+      }
+    }
+  }
+}
+
+
+@keyframes k-loadingK {
+  0% {
+    left: 0;
+    transform: scale(1.1)
+  }
+  50% {
+    left: 100%;
+    transform: scale(1)
+  }
+  100% {
+    left: 0;
+    transform: scale(1.1)
+  }
+}
+
+@keyframes k-loadingM {
+  0% {
+    z-index: 0
+  }
+  50% {
+    z-index: 1
+  }
+  100% {
+    z-index: 0
+  }
+}
+
+@keyframes k-loadingL {
+  0% {
+    left: 100%;
+    transform: scale(1.1)
+  }
+  50% {
+    left: 0;
+    transform: scale(1)
+  }
+  100% {
+    left: 100%;
+    transform: scale(1.1)
+  }
+}
+
+@keyframes k-loadingN {
+  0% {
+    z-index: 1
+  }
+  50% {
+    z-index: 0
+  }
+  100% {
+    z-index: 1
+  }
+}
+
+.k-loader {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 8px;
+  position: relative;
+  height: 8px;
+  width: 12px;
+}
+
+.k-loader:before, .k-loader:after {
+  content: "";
+  display: block;
+  height: 8px;
+  position: absolute;
+  width: 8px;
+  border-radius: 50%;
+}
+
+.k-loader:before {
+  animation: k-loadingK 1s ease-in-out infinite, k-loadingM .33s ease-in-out infinite;
+  background: #008BEE;
+}
+
+.k-loader:after {
+  animation: k-loadingL 1s ease-in-out infinite, k-loadingN .33s ease-in-out infinite;
+  background: #6DD400;
+}
+

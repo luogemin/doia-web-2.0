@@ -1,0 +1,120 @@
+@import '../../../../theme/default/less/common.less';
+
+.task-detail {
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100%;
+
+  :global {
+    .cw-common-table {
+      height: calc(100% - 48px);
+    }
+
+    .cw-pagination-wrapper {
+      padding: 0;
+    }
+
+    .search-box {
+      height: 32px;
+      margin-bottom: 16px;
+      //justify-content: space-between;
+      //-webkit-justify-content: space-between;
+    }
+
+    .item-box {
+      margin-bottom: 8px;
+      padding: 8px 16px;
+      background-color: #f1f1f1;
+
+      .item-title {
+        flex: 1;
+        color: #333;
+        font-weight: bold;
+        padding-right: 32px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+
+      .item-btn {
+        color: #1890FF;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.task-info-modal {
+  :global {
+
+    .cw-pagination-wrapper {
+      margin: 0;
+    }
+
+    .task-info-model-header {
+
+      .title {
+        margin-right: 16px;
+        font-weight: bold;
+      }
+
+      .cw-pagination-wrapper {
+        height: 24px;
+      }
+    }
+
+    .body {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      flex: 1;
+      height: 100%;
+
+      .body-top {
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        margin-bottom: 16px;
+
+        .body-top-left {
+          flex: 1;
+          overflow: hidden;
+          margin-right: 16px;
+
+          .train-time-box {
+            margin: 0 16px 0 0;
+            min-width: 480px;
+          }
+
+          .item-title {
+            margin: 0 16px 0 0;
+            max-width: 30%;
+
+            span {
+              font-weight: bolder;
+            }
+          }
+        }
+
+        .body-top-right {
+          justify-content: flex-end;
+          -webkit-justify-content: flex-end;
+
+        }
+      }
+
+      .body-bottom {
+        flex: 1;
+        overflow-y: auto;
+      }
+
+      .body-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

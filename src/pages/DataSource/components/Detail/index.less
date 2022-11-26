@@ -1,0 +1,104 @@
+@import '../../../../theme/default/less/common.less';
+
+.detail-main {
+  height: 100%;
+  padding: 0 32px;
+
+  .detail-header {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 24px;
+    border-left: 4px solid #008DFF;
+    padding-left: 8px;
+    height: 24px;
+    margin: 32px 0;
+  }
+
+  .detail-basic-name {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+.generics-detail {
+  padding: 24px 32px;
+
+  :global {
+
+    .label-rwopper {
+      padding: 32px 24px;
+    }
+
+    .title {
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    .info {
+      color: rgba(0, 0, 0, 0.65);
+      flex-grow: 1;
+    }
+
+    .info-des {
+      color: rgba(0, 0, 0, 0.65);
+    }
+
+    .title-des {
+      color: rgba(0, 0, 0, 0.85);
+      display: flex;
+    }
+
+    .title-description {
+      white-space: nowrap;
+    }
+
+    .generics-detail-top {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .generics-detail-bottom-param {
+      display: flex;
+      flex: 1;
+    }
+
+    .title-bottom {
+      color: #666;
+    }
+
+    .paramItem {
+      margin-bottom: 0;
+      width: 23%;
+      padding: 8px 2% 8px 8px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      border: 1px solid #e1e1e1;
+    }
+  }
+}
+
+.detail-descriptions {
+  width: 100%;
+
+  :global {
+    .ant-descriptions-item-label {
+      max-width: 35%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      word-break: break-all;
+    }
+
+    .ant-descriptions-item-content {
+      max-width: 65%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      word-break: break-all;
+    }
+  }
+}

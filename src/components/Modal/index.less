@@ -1,0 +1,52 @@
+.customModal {
+  :global {
+    font-size: 12px;
+
+    .error {
+      color: #D0280D;
+    }
+  }
+}
+
+.errorModal {
+  :global {
+    .ant-input-error {
+      border-color: #D0280D;
+    }
+  }
+}
+
+.typoModal {
+  :global {
+    .ant-modal-body {
+      padding: 20px 0px;
+    }
+
+    height: ~'calc(100% - 60px)';
+    top: 40px;
+    overflow-y: scroll;
+  }
+}
+
+.sampleModal {
+  :global {
+    .ant-modal-header {
+      display: none;
+    }
+
+    .ant-modal-body {
+      height: auto !important;
+      max-height: 500px;
+      overflow-y: auto;
+    }
+
+  }
+}
+
+.modelModal {
+  :global {
+    .ant-modal-footer {
+      text-align: center;
+    }
+  }
+}

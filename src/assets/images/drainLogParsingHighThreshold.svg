@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="392px" height="248px" viewBox="0 0 392 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <path d="M2,0 L382,0 C383.104569,-2.02906125e-16 384,0.8954305 384,2 L384,238 C384,239.104569 383.104569,240 382,240 L2,240 C0.8954305,240 1.3527075e-16,239.104569 0,238 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-1"></path>
+        <filter x="-1.8%" y="-2.1%" width="103.6%" height="105.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.12334826   0 0 0 0 0.156873573   0 0 0 0 0.212749094  0 0 0 0.0649311626 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(4.000000, 2.000000)">
+            <g id="Rectangle-5-Copy-4备份-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="标题" transform="translate(16.000000, 14.000000)" fill="#000000" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400">
+                <text id="Drain日志解析高阈值">
+                    <tspan x="0" y="15">Drain日志解析高阈值</tspan>
+                </text>
+            </g>
+            <circle id="椭圆形备份-64" fill="#46A6FF" cx="74" cy="92" r="12"></circle>
+            <circle id="椭圆形备份-66" fill="#46A6FF" cx="74" cy="144" r="12"></circle>
+            <circle id="椭圆形备份-70" fill="#6DD897" cx="89" cy="175" r="12"></circle>
+            <circle id="椭圆形备份-73" fill="#6DD897" cx="74" cy="120" r="12"></circle>
+            <circle id="椭圆形备份-74" fill="#FF9D9D" cx="98" cy="112" r="12"></circle>
+            <circle id="椭圆形备份-76" fill="#FF9D9D" cx="62" cy="168" r="12"></circle>
+            <circle id="椭圆形备份-77" fill="#FF9D9D" cx="50" cy="140" r="12"></circle>
+            <circle id="椭圆形备份-67" fill="#46A6FF" cx="101" cy="144" r="12"></circle>
+            <circle id="椭圆形备份-80" fill="#46A6FF" cx="50" cy="108" r="12"></circle>
+            <g id="箭头备份" opacity="0.119999997" transform="translate(180.500000, 138.000000) scale(1, -1) translate(-180.500000, -138.000000) translate(160.000000, 126.000000)" fill="#606266" fill-rule="nonzero">
+                <path d="M40.2055037,13.9678946 C40.168917,14.0060052 40.1302188,14.0420574 40.0895894,14.0758828 L31.1038125,23.1900884 C30.0388494,24.2699705 28.2928895,24.2699705 27.2230967,23.1900884 C26.1573642,22.0929018 26.1573642,20.3541041 27.2230967,19.2569175 L31.6447461,14.7766064 L12.1566462,14.7766064 C10.6276053,14.760779 9.39911953,13.5196152 9.40845671,12.0001093 C9.40845671,10.4714761 10.642515,9.22361229 12.1494016,9.22361229 L31.6375014,9.22361229 L27.2182669,4.74330114 C26.1525344,3.64611457 26.1525344,1.90731684 27.2182669,0.810130279 C27.7292436,0.291981366 28.4285736,0 29.1586248,0 C29.888676,0 30.588006,0.291981366 31.0989827,0.810130279 L40.0871745,9.92433581 L40.2030889,10.032324 C40.734363,10.5722651 41,11.2849874 41,12.0001093 C41,12.7152313 40.734363,13.4279535 40.2030889,13.9678946 L40.2055037,13.9678946 Z M0.00012887862,12.0001093 C0.00012887862,10.4642769 1.22688908,9.22361229 2.74102024,9.22361229 C4.25515139,9.22361229 5.48191162,10.4642769 5.48191162,12.0001093 C5.48191162,13.5359418 4.25515142,14.7766064 2.74102024,14.7766064 C2.00703483,14.7696389 1.30590072,14.4731935 0.791876626,13.9524919 C0.277852528,13.4317904 -0.00695016433,12.7294912 0.00012887862,12.0001093 L0.00012887862,12.0001093 Z" id="形状"></path>
+            </g>
+            <circle id="椭圆形备份-93" fill="#46A6FF" cx="252" cy="106" r="12"></circle>
+            <circle id="椭圆形备份-94" fill="#FF9D9D" cx="252" cy="170" r="12"></circle>
+            <circle id="椭圆形备份-95" fill="#46A6FF" cx="280" cy="106" r="12"></circle>
+            <circle id="椭圆形备份-96" fill="#FF9D9D" cx="280" cy="170" r="12"></circle>
+            <circle id="椭圆形备份-97" fill="#46A6FF" cx="308" cy="106" r="12"></circle>
+            <circle id="椭圆形备份-98" fill="#FF9D9D" cx="308" cy="170" r="12"></circle>
+            <circle id="椭圆形备份-99" fill="#6DD897" cx="252" cy="138" r="12"></circle>
+            <circle id="椭圆形备份-101" fill="#6DD897" cx="280" cy="138" r="12"></circle>
+            <circle id="椭圆形备份-102" fill="#6DD897" cx="308" cy="138" r="12"></circle>
+        </g>
+    </g>
+</svg>

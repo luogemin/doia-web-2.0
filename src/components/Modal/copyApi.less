@@ -1,0 +1,59 @@
+.customModal {
+  :global {
+
+    .ant-modal-body {
+      height: auto !important;
+      max-height: 500px;
+    }
+
+    .detailItem {
+      border-bottom: 1px dotted @primary-color;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+
+    .listIndex {
+      height: 30px;
+      line-height: 30px;
+      overflow: scroll;
+    }
+
+    .listItem {
+      line-height: 30px;
+
+      .title {
+        font-weight: bold;
+
+        i {
+          font-weight: normal;
+        }
+      }
+
+      .value {
+        // overflow:scroll;
+      }
+    }
+
+    .modelCurl {
+      height: auto;
+      line-height: 24px;
+
+      b {
+        line-height: 30px;
+      }
+    }
+
+    pre {
+      background: #eeeeee;
+      white-space: pre;
+      word-wrap: normal;
+
+      p {
+        -webkit-margin-before: 0px;
+        -webkit-margin-after: 0px;
+        line-height: 22px;
+        margin: 0px;
+      }
+    }
+  }
+}

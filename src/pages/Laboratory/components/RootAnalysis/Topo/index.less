@@ -1,0 +1,118 @@
+.topo {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  position: relative;
+  padding: 8px 0;
+
+  :global {
+    .flow {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      border: 1px solid #D8D8D8;
+    }
+  }
+}
+
+.topo-sider-box {
+  position: absolute;
+  right: 1px;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  border-left: 1px solid #D8D8D8;
+  background-color: #fff;
+
+  :global {
+    p {
+      margin-bottom: 0;
+    }
+
+    .topo-sider-box-header {
+      padding: 8px;
+      justify-content: space-between;
+      -webkit-justify-content: space-between;
+      font-size: 16px;
+
+      p {
+        font-weight: 500;
+      }
+
+      .header-close {
+        cursor: pointer;
+      }
+    }
+
+    .topo-sider-box-body {
+      height: calc(100% - 40px);
+      overflow-y: auto;
+      font-size: 14px;
+
+      .body-item {
+        padding: 8px 16px;
+        position: relative;
+        overflow: hidden;
+
+        .body-item-add {
+          background: blue;
+          transition: top 2s;
+          -moz-transition: top 2s; /* Firefox 4 */
+          -webkit-transition: top 2s; /* Safari and Chrome */
+          -o-transition: top 2s; /* Opera */
+        }
+
+        .body-item-add:hover {
+          top: 0;
+        }
+
+        .body-item-num {
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          background-color: #52C41A;
+          justify-content: center;
+          -webkit-justify-content: center;
+          color: #fff;
+        }
+
+        .body-item-text {
+          flex: 1;
+          padding: 0 8px;
+        }
+
+        .body-item-progress {
+          width: 40px;
+          margin-right: 8px;
+        }
+
+        .body-item-hand {
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.65);
+          margin-left: 8px;
+          cursor: pointer;
+        }
+
+        .body-item-selected-icon {
+          position: absolute;
+          bottom: -11px;
+          right: -13px;
+          height: 25px;
+          width: 30px;
+          background-color: #52C41A;
+          transform: rotate(-45deg);
+
+          .icon {
+            color: #fff;
+            font-size: 6px;
+            transform: rotate(45deg);
+            position: absolute;
+            bottom: 11px;
+            right: 9px;
+          }
+        }
+      }
+    }
+  }
+}

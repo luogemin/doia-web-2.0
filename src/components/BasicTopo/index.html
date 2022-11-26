@@ -1,0 +1,262 @@
+<!--
+ * @Author: tiger.wang
+ * @Date: 2021-02-14 10:37:57
+ * @LastEditors: your name
+ * @LastEditTime: 2021-09-07 14:44:33
+ * @Description: In User Settings Edit
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>链路分析</title>
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.7.1/dist/g6.min.js"></script>
+</head>
+
+<body style="background-color: #131830;">
+    <div id="canvas"></div>
+    <script type="module">
+        import Index from './index.js';
+        const data = {
+            nodes: [
+                {
+                    id: 'node1-1',
+                    comboId: 'combo-1',
+                    label: ['功能11', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node1-2',
+                    comboId: 'combo-1',
+                    label: ['功能12', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node1-3',
+                    comboId: 'combo-1',
+                    label: ['功能12', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node1-4',
+                    comboId: 'combo-1',
+                    label: ['功能12', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                // 设备层
+                {
+                    id: 'node2-1',
+                    comboId: 'combo-2',
+                    label: ['功能21', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node2-2',
+                    comboId: 'combo-2',
+                    label: ['功能22', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node2-3',
+                    comboId: 'combo-2',
+                    label: ['功能22', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node2-4',
+                    comboId: 'combo-2',
+                    label: ['功能22', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node2-5',
+                    comboId: 'combo-2-2',
+                    label: ['功能22', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node2-6',
+                    comboId: 'combo-2-2',
+                    label: ['功能22', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                // 零件层
+                {
+                    id: 'node3-1',
+                    comboId: 'combo-3',
+                    label: ['功能31', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node3-2',
+                    comboId: 'combo-3',
+                    label: ['功能32', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node3-3',
+                    comboId: 'combo-3-2',
+                    label: ['功能32', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node3-4',
+                    comboId: 'combo-3-2',
+                    label: ['功能32', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node3-5',
+                    comboId: 'combo-3-2',
+                    label: ['功能32', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                // 子零件层
+                {
+                    id: 'node4-1',
+                    comboId: 'combo-4',
+                    label: ['功能31', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node4-2',
+                    comboId: 'combo-4',
+                    label: ['功能32', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node4-3',
+                    comboId: 'combo-4',
+                    label: ['功能32', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node4-4',
+                    comboId: 'combo-4-2',
+                    label: ['功能32', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+                {
+                    id: 'node4-5',
+                    comboId: 'combo-4-2',
+                    label: ['功能32', '失效模式11', '失效原因', '高一层次影响: CC1', '严酷度7']
+                },
+            ],
+            edges: [
+                {
+                    source: 'node1-1',
+                    target: 'node2-1',
+                },
+                {
+                    source: 'node1-2',
+                    target: 'node2-4',
+                },
+                {
+                    source: 'node1-2',
+                    target: 'node2-5',
+                },
+                {
+                    source: 'node1-3',
+                    target: 'node2-6',
+                },
+                {
+                    source: 'node1-3',
+                    target: 'node2-2',
+                },
+                {
+                    source: 'node1-4',
+                    target: 'node2-3',
+                },
+                // 
+                {
+                    source: 'node2-1',
+                    target: 'node3-1',
+                },
+                {
+                    source: 'node2-1',
+                    target: 'node3-3',
+                },
+                {
+                    source: 'node2-2',
+                    target: 'node3-1',
+                },
+                {
+                    source: 'node2-2',
+                    target: 'node3-2',
+                },
+                {
+                    source: 'node2-3',
+                    target: 'node3-5',
+                },
+                {
+                    source: 'node2-4',
+                    target: 'node3-4',
+                },
+                // 
+                {
+                    source: 'node3-1',
+                    target: 'node4-1',
+                },
+                {
+                    source: 'node3-1',
+                    target: 'node4-2',
+                },
+                {
+                    source: 'node3-1',
+                    target: 'node4-3',
+                },
+                {
+                    source: 'node3-1',
+                    target: 'node4-4',
+                },
+                {
+                    source: 'node3-2',
+                    target: 'node4-5',
+                },
+            ],
+            combos: [
+                {
+                    id: 'combo-1',
+                    layer: 1,
+                    groupIndex: 1,
+                    label_1: 'FEG层',
+                    label_2: 'FEG层-xxx',
+                },
+                {
+                    id: 'combo-2',
+                    layer: 2,
+                    groupIndex: 1,
+                    label_1: '设备层',
+                    label_2: '设备层-xxx',
+                },
+                {
+                    id: 'combo-2-2',
+                    layer: 2,
+                    groupIndex: 2,
+                    label_1: '设备层2',
+                    label_2: '设备层2-xxx',
+                },
+                {
+                    id: 'combo-3',
+                    layer: 3,
+                    groupIndex: 1,
+                    label_1: '零件层',
+                    label_2: '零件层-xxx',
+                },
+                {
+                    id: 'combo-3-2',
+                    layer: 3,
+                    groupIndex: 2,
+                    label_1: '零件层2',
+                    label_2: '零件层2-xxx',
+                },
+                {
+                    id: 'combo-4',
+                    layer: 4,
+                    groupIndex: 1,
+                    label_1: '子零件层',
+                    label_2: '子零件层-xxx',
+                },
+                {
+                    id: 'combo-4-2',
+                    layer: 4,
+                    groupIndex: 2,
+                    label_1: '子零件层2',
+                    label_2: '子零件层2-xxx',
+                },
+            ]
+        };
+
+        window.onload = () => {
+            const g6 = new Index();
+            g6.init();
+            g6.update(data)
+            g6.highlighted();
+        }
+    </script>
+</body>
+
+</html>
